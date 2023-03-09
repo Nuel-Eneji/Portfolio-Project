@@ -30,8 +30,8 @@
                         <div class="subtitle">
                             Davido ft. Mayorkun
                         </div>
-                        <i class="bi playListPlay bi-play-circle" id="1"></i>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle" id="1"></i>
                 </li>
                 <li class="song_item">
                     <span>02</span>
@@ -41,8 +41,8 @@
                         <div class="subtitle">
                             Burna Boy
                         </div>
-                        <i class="bi playListPlay bi-play-circle" id="2"></i>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle" id="1"></i>
                 </li>
                 <li class="song_item">
                     <span>03</span>
@@ -52,8 +52,8 @@
                         <div class="subtitle">
                             Davido
                         </div>
-                        <i class="bi playListPlay bi-play-circle" id="3"></i>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle" id="1"></i>
                 </li>
                 <li class="song_item">
                     <span>04</span>
@@ -63,8 +63,8 @@
                         <div class="subtitle">
                             Davido ft. Mayorkun
                         </div>
-                        <i class="bi playListPlay bi-play-circle" id="4"></i>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle" id="1"></i>
                 </li>
                 <li class="song_item">
                     <span>05</span>
@@ -74,8 +74,8 @@
                         <div class="subtitle">
                             Davido ft. Mayorkun
                         </div>
-                        <i class="bi playListPlay bi-play-circle" id="5"></i>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle" id="1"></i>
                 </li>
                 <li class="song_item">
                     <span>06</span>
@@ -85,8 +85,8 @@
                         <div class="subtitle">
                             Davido ft. Mayorkun
                         </div>
-                        <i class="bi playListPlay bi-play-circle" id="6"></i>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle" id="1"></i>
                 </li>
             </div>
         </div>
@@ -97,8 +97,40 @@
                 <div class="wave1"></div>
                 <div class="wave1"></div>
             </div>
+            <img src="/Images/davidocover.jpeg" alt="Davido cover photo">
+            <h5>The Best <br>
+                <div class="subtitle">
+                    Davido ft. Mayorkun
+                </div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill"></i>
+                <i class="bi bi-play-fill"></i>
+                <i class="bi bi-skip-end-fill"></i> 
+            </div>
+            <span id="current_start">0:00</span>
+            <div class="bar">
+                <input type="range" name="" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2">
+
+                </div>
+                <div class="dot"></div>
+            </div>
+            <span id="current_end">0:00</span>
+
+<!-- ==================== Volume bar ==================== -->
+
+            <div class="vol">
+                <i class="bi bi-volume-down-fill"></i>
+                <input type="range" name="" id="vol" min="0" value="30" max="100">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+                
+
+            </div>
         </div>
     </header>
+    <script src="app.js"></script>
 </body>
 </html>
 
