@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "Portfolio project built while studying at Alx Africa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nuel-Eneji/Portfolio-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nuel-Eneji/Portfolio-Project/issues"
+  },
+  "homepage": "https://github.com/Nuel-Eneji/Portfolio-Project#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1"
+  }
+}
